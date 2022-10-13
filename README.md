@@ -57,8 +57,8 @@ You can refer to the following articles on **_basics of Git and Github and also 
   <img src="https://contrib.rocks/image?repo=ammyriya/Fitness_website" />
 </a>
 
-		</td>
-	</tr>
+	
+	
 </table>
 
 <br>
