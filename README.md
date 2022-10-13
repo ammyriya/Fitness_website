@@ -1,10 +1,8 @@
-# Fitness_website
-It's a Fitness website 
+#FITNESS WEBSITE
 
 
-<a href="https://github.com/ammyriya/Fitness_website/graphs/contributors">
-  <img src="https://github.com/ammyriya/Fitness_website/raw/master/banner.png" />
-</a>
+
+![](banner.png)
 
 ## About
 
