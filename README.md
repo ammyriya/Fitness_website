@@ -1,7 +1,10 @@
 # Fitness_website
 It's a Fitness website 
 
-![](banner.png)
+
+<a href="https://github.com/ammyriya/Fitness_website/graphs/contributors">
+  <img src="https://github.com/ammyriya/Fitness_website/raw/master/banner.png" />
+</a>
 
 ## About
 
@@ -40,7 +43,7 @@ You can refer to the following articles on **_basics of Git and Github and also 
 <table>
 <tr>
 
-<td align="center"><a href="https://github.com/ammyriya"><img src="https://avatars.githubusercontent.com/u/115613476?v=4" width=125px height=125px /></a><h3 style="color:white;">Subhradeep Samanta</h3>
+<td align="center"><a href="https://github.com/ammyriya"><img src="https://avatars.githubusercontent.com/u/115613476?v=4" width=125px height=125px /></a><h3 style="color:white;">Riya</h3>
 
 </tr>
 </table>
