@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="https://kit.fontawesome.com/954a6fbf4e.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tiro+Telugu:ital@1&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Tiro Telugu', serif;
+            box-sizing: border-box;
+        }
+        header
+        {
+            height: 10vh;
+            background-color: skyblue;
+        }
+        header>button
+        {
+           float: right;
+           height: 6vh;
+           position:fixed;
+           top:1.5vh;
+           right:1vw;
+           padding: 10px;
+           text-align: center;
+           background-color: black;
+           color: white;
+           border-radius: 15px;
+        }
+        header>button:hover
+        {
+            cursor: pointer;
+        }
+        .flexbox
+        {
+            display: flex;
+            flex-direction: row-reverse;
+            height: 90vh;
+            width: 100vw;
+        }
+        .flex2
+        {
+            /* border-right: 2px solid black; */
+            width: 30vw;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: lightblue;
+            flex-wrap: wrap;
+        }
+        h4
+        {
+            border-bottom: 2px solid black;
+            font-size: larger;
+        }
+        form
+        {
+            width: 70vw;
+        }
+        .flex1
+        {
+            width: 70vw;
+            background: #ffd89b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        .description
+        {
+            width: 70vw;
+            height: 20vh;
+            border-radius: 15px;
+        }
+        input
+        {
+            margin: 7px 0px;
+            padding: 3px;
+            width: 70vw;
+            border-radius:2px ;
+        }
+        .button
+        {
+            background-color:black;
+            color: white;
+            width: 15%;
+            cursor: pointer;
+            padding: 6px;
+            position: relative;
+            left: 30%;
+            margin-top: 5%;
+        }
+        .email
+        {
+            text-decoration: dashed;
+            /* border-bottom: 1px solid black; */
+        }
+        .para
+        {
+            position: relative;
+            top: 30vh;
+            color: blue;
+        }
+        .fa-home
+        {
+            color: white;
+            font-size: 19px;
+            /* position: relative; */
+        }
+        h1
+        {
+            text-shadow: 4px 4px 8px red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PORTFOLIO WEBSITE</h1>
+        <button class="btn-nav" onclick="fun()"><i class="fas fa-home"></i></button>
+    </header>
+    <div class="flexbox">
+        <div class="flex1">
+            <h4>Contact Us:</h4>
+
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" name="" id="" autocapitalize="characters">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="" id="" autocomplete="email">
+        <br>
+        <label for="mobile">Mobile No. :</label>
+        <input type="text" name="" id="">
+        <br>
+        <label for="description">Description</label>
+        <input type="text" name="" id="" class="description" placeholder="Write something here....">
+    </form>
+    <a href="index.html"><button id="btn" class="button" onclick="alert()">Submit</button></a>
+    </div>
+    <div class="flex2">
+        <p class="para">
+            Address:
+            New Delhi 5502,Street Line
+            Near Rajagarh Fort
+            Phone: 00-3468-7899
+            Fax: 45-7926-8
+            Email:info@gmail.com
+        </p>
+    </div>
+</div>
+</body>
+<script>
+    function fun()
+     {
+        window.history.back();
+     }
+    //  function alert()
+    //  {
+    //     alert("Details saved sucessfully");
+    //  }
+</script>
+</html>
